@@ -4,100 +4,168 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Taller 01</title>
+    <title></title>
 
     <!-- bootstrap-4.0.0-alpha.6-dist -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-
     <!-- jquery-3.2.1 -->
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
 
     <style>
-    .slider1{
-      background: url("images/wall01.jpg");
-      width: auto;
-      height: 100vh;
-      background-size: cover;
-      background-position: center;
-    }
-    .slider2{
-      background: url("images/wall02.jpg");
-      width: auto;
-      height: 100vh;
-      background-size: cover;
-      background-position: center;
-    }
-    .slider3{
-      background: url("images/wall03.jpg");
-      width: auto;
-      height: 100vh;
-      background-size: cover;
-      background-position: center;
-    }
-    .slider4{
-      background: url("images/wall04.jpg");
-      width: auto;
-      height: 100vh;
-      background-size: cover;
-      background-position: center;
-    }
+      .slider{
+        background: url("rsc/bg-2.png");
+        width: auto;
+        height: 60vh;
+        background-size: cover;
+        background-position: center;
+      }
     </style>
+
 
   </head>
   <body>
     <!-- Menu de navegacion -->
-    <nav class="navbar navbar-light navbar-toggleable-sm sticky-top" style="background-color: black;">
-      <button class="navbar-toggler navbar-toggler-right" type="button"
-      data-toggle="collapse"
-      data-target="#navbarTogglerDemo01"
-      aria-controls="navbarTogglerDemo01"
-      aria-expanded="false"
-      aria-label="Togle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand text-white" href="index.html">
-        <img src="images/logo.png" width="30" height="30" class="d-inline-block aline-top">
-        Taller01
-      </a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="navbar-nav mr-auto text-center">
-          <a class="nav-item nav-link text-white" href="#main1">
-            <img src="images/galeria.png" width="30" height="30" class="d-inline-block aline-top" alt="">
-            wall01</a>
-          <a class="nav-item nav-link text-white" href="#main2">
-            <img src="images/nosotros.png" width="30" height="30" class="d-inline-block aline-top" alt="">
-            wall02</a>
-          <a class="nav-item nav-link text-white" href="#main3">
-            <img src="images/galeria.png" width="30" height="30" class="d-inline-block aline-top" alt="">
-            wall03</a>
-          <a class="nav-item nav-link text-white" href="#main4">
-            <img src="images/nosotros.png" width="30" height="30" class="d-inline-block aline-top" alt="">
-            wall04</a>
+    <div class="container-fluid bg-inverse fixed-top text-center">
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-inverse bg-inverse container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="rsc/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"alt="">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link mr-md-4" href="#">Disabled</a>
+            <div><a href="#" class="btn btn-danger">Contacto</a></div>
+          </div>
         </div>
-        <div>
-          <a href="https://www.facebook.com/barquestquilpue/"><img src="rsc/facelogo.png" width="30" height="30"></a>
-          <a href="https://www.instagram.com/barquest_quilpue/"><img src="rsc/instalogo.png" width="30" height="30"></a>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <!-- Menu de navegacion -->
 
-    <section id="main1" class="container-fluid slider1 d-flex justify-content-center align-items-center">
-      wall01
-    </section>
-    <section id="main2" class="container-fluid slider2 d-flex justify-content-center align-items-center">
-      wall02
-    </section>
-    <section id="main3" class="container-fluid slider3 d-flex justify-content-center align-items-center">
-      wall03
-    </section>
-    <section id="main4" class="container-fluid slider4 d-flex justify-content-center align-items-center">
-      wall04
-    </section>
 
+    <!--Slider-->
+    <div class="container-fluid slider d-flex flex-column justify-content-center align-items-center">
+      <div class="text-center text-white">
+        <h3>Tittle</h3>
+        <h1 class="display-1">Tittle2</h1>
+      </div>
+      <form action="" class="form-inline d-flex flex-column flex-sm-row">
+        <div class="form-group mr-4">
+          <input type="text" name="" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="submit" name="" class="btn btn-danger" value="enviar">
+        </div>
+      </form>
+    </div>
+    <!--slider-->
+    <!--main-->
+    <div class="container">
+      <h3>Main</h3>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <hr>
+      <div class="row">
+        <!--Articulos-->
+        <div class="col-12 col-md-9">
+          <!-- 1 Articulos-->
+          <div class="row mb-5">
+            <div class="col-3">
+              <img src="rsc/cards1.png" class="img-fluid">
+            </div>
+            <div class="col-9">
+              <span class="badge badge-primary">Primary</span>
+              <span class="badge badge-success">Success</span>
+              <span class="badge badge-info">Info</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-danger btn-sm">Leer mas</a>
+            </div>
+          </div>
+          <!-- 1 Articulos-->
+          <!-- 1 Articulos-->
+          <div class="row mb-5">
+            <div class="col-3">
+              <img src="rsc/cards1.png" class="img-fluid">
+            </div>
+            <div class="col-9">
+              <span class="badge badge-primary">Primary</span>
+              <span class="badge badge-success">Success</span>
+              <span class="badge badge-info">Info</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-danger btn-sm">Leer mas</a>
+            </div>
+          </div>
+          <!-- 1 Articulos-->
+          <!-- 1 Articulos-->
+          <div class="row mb-5">
+            <div class="col-3">
+              <img src="rsc/cards1.png" class="img-fluid">
+            </div>
+            <div class="col-9">
+              <span class="badge badge-primary">Primary</span>
+              <span class="badge badge-success">Success</span>
+              <span class="badge badge-info">Info</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <a href="#" class="btn btn-danger btn-sm">Leer mas</a>
+            </div>
+          </div>
+          <!-- 1 Articulos-->
+          <!-- Navbar -->
+          <div class="btn-toolbar d-flex justify-content-center mb-4" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary active">Inicio</button>
+              <button type="button" class="btn btn-secondary">1</button>
+              <button type="button" class="btn btn-secondary">2</button>
+              <button type="button" class="btn btn-secondary">3</button>
+              <button type="button" class="btn btn-secondary">4</button>
+              <button type="button" class="btn btn-secondary">Fin</button>
+            </div>
+          </div>
+          <!-- Navbar -->
+        </div>
+        <!--Articulos-->
+        <!--Aside-->
+        <div class="col-12 col-md-3">
+          <div class="card card-inverse card-primary mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card card-inverse card-success mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="card card-inverse card-info mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <!--Aside-->
 
+      </div>
+    </div>
+    <!--main-->
+    <!-- Footer -->
+      <footer class="bg-inverse text-white container-fluid py-3 text-center">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </footer>
+    <!-- Fin Footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
